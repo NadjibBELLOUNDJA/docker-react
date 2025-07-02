@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+env:
+  DAY_OF_WEEK: Monday
+
 jobs:
   build:
     runs-on: ubuntu-latest
